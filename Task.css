@@ -1,0 +1,47 @@
+/* Task.css */
+.task-item {
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.task-item:hover {
+  transform: scale(1.03);
+  background-color: #e0e7ef;
+}
+
+.task-item .task-text {
+  display: inline-block;
+  width: 70%;
+}
+
+.task-item button {
+  float: right;
+  margin-left: 10px;
+}
+
+.task-item button.complete-btn {
+  background-color: #28a745;
+}
+
+.task-item button.complete-btn:hover {
+  background-color: #218838;
+}
+
+.task-item button.edit-btn {
+  background-color: #ffc107;
+}
+
+.task-item button.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.task-item button.delete-btn {
+  background-color: #dc3545;
+}
+
+.task-item button.delete-btn:hover {
+  background-color: #c82333;
+}

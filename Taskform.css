@@ -1,0 +1,29 @@
+/* Taskform.css */
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input[type="text"],
+.task-form select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.task-form button {
+  background-color: #0069d9;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.task-form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
